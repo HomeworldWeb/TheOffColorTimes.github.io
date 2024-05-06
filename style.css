@@ -1,0 +1,54 @@
+body {background-color: lightblue; color: midnightblue; font-family: "Alice"; font-size: 19px;}
+header {width: 200px; border: 16px solid orange; padding: 20px; margin: auto; display: none;}
+h1 {color: midnightblue; font-family: "Angkor"; text-align: center; margin: 0px; font-size: 36px;}
+nav {width: 100%; background-color: cornflowerblue; overflow: auto;}
+.navbara {float: left; color: white; padding: 14px 16px; font-size: 20px; background-color: cornflowerblue; font-family: "Lalezar"; clear: both; width: 100%;}
+@media screen and (min-width: 768px) {
+  header {display: block;}
+  .navbara {clear: initial; text-align: center; width: auto;}
+  .navbar {border-radius: 0px;}
+}
+@media screen and (min-width: 1200px) {
+  header {width: 300px; border-width: 24px; padding: 30px;}
+  .logo {font-size: 54px;}
+  .home-head {text-align: center;}
+  .home {display: flex; margin-top: 10px;}
+  hr {display: none;}
+  .in-home-1 {padding-right: 10px; border-right: 0.5px solid midnightblue; margin-left: auto;}
+  .in-home-2 {padding-left: 10px; margin-right: auto;}
+}
+.icon-bar {background-color: darkblue; height: 4px;}
+.navbara:hover {background-color: darkblue; color: white; text-decoration: none;}
+.navbara:active {background-color: firebrick; color: white;}
+main {margin: 5px;}
+.in-about-us {margin: 20px;}
+@media screen and (min-width: 900px) {
+  .about-us {display: flex; flex-wrap: wrap;}
+  .in-about-us {flex: 400px; max-width: 600px;}
+}
+.image {width:150px; height:150px;}
+td {font-size: 18px;}
+h3 {font-family: "Angkor";}
+.article {border: 1px solid black;}
+.articlea {font-size: 30px; color: black;}
+.articlea:hover {color: navy;}
+.articlea:active {color: blue;}
+a {text-decoration: none;}
+ul {color: orange; list-style-type: square;}
+.lists {color: midnightblue;}
+hr {height: 1px; border-width: 0px; background-color: midnightblue;}
+article {max-width: 800px; margin: auto; line-height: 25px;}
+.title {line-height: initial;}
+h4 {font-size: x-large;}
+.ad {border: 0.5px solid black; max-width: 800px; margin: 10px auto;}
+img.ad {height: auto; width: 100%}
+footer {background-color: cornflowerblue; padding-left: -1.5%;  clear: both;}
+.related {border: 1px solid black; display: none; padding: 5px; width: 170px;}
+.sidebar {float: right;}
+@media screen and (min-width: 1150px) {
+  .related {display: grid;}
+  .buffer {height: 100px;}
+}
+@media screen and (min-width: 1600px) {
+  article .ad {width: 50%;}
+}
