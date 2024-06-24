@@ -52,4 +52,4 @@ footer {background-color: cornflowerblue; padding-left: -1.5%;  clear: both;}
 @media screen and (min-width: 1600px) {
   article .ad {width: 50%;}
 }
-.articledate {text-align: center;}
+.articledate {text-align: right;}
